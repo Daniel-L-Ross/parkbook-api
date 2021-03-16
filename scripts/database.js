@@ -13,6 +13,7 @@ export const getParks = () => {
             }
                 )
 }
+
 export const getNewParks = () => {
     return fetch("http://localhost:8088/newParks")
         .then(res => res.json())
