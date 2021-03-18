@@ -5814,6 +5814,11 @@
       "email": "ron@parks.com",
       "name": "Ron Swanson",
       "id": 2
+    },
+    {
+      "email": "ben@pawnee.gov",
+      "name": "Ben Wyatt",
+      "id": 3
     }
   ],
   "favorites": [
@@ -5825,13 +5830,13 @@
   ],
   "reviews": [
     {
-      "id": 1,
       "parkId": 1,
-      "userId": 2,
+      "userId": 1,
       "rating": 5,
-      "review": "This is the review text",
-      "timestamp": 1616083066683,
-      "edited": false
+      "review": "Best park",
+      "timestamp": 1616096575539,
+      "edited": false,
+      "id": 1
     }
   ]
 }
