@@ -5808,50 +5808,41 @@
     {
       "email": "leslie@parks.com",
       "name": "Leslie Knope",
+      "profilePic": "",
       "id": 1
     },
     {
       "email": "ron@parks.com",
       "name": "Ron Swanson",
+      "profilePic": "",
       "id": 2
     },
     {
       "email": "ben@pawnee.gov",
       "name": "Ben Wyatt",
+      "profilePic": "",
       "id": 3
     },
     {
       "email": "april@parks.gov",
       "name": "April Ludgate",
+      "profilePic": "",
       "id": 4
     },
     {
       "email": "andy@parks.gov",
       "name": "Andy Dwyer",
+      "profilePic": "",
       "id": 5
     },
     {
       "email": "donna@regalmeaglerealty.com",
       "name": "Donna Meagle",
+      "profilePic": "",
       "id": 6
     }
   ],
   "favorites": [
-    {
-      "parkId": 1,
-      "userId": 1,
-      "id": 1
-    },
-    {
-      "parkId": 1,
-      "userId": 1,
-      "id": 2
-    },
-    {
-      "parkId": 2,
-      "userId": 1,
-      "id": 3
-    },
     {
       "parkId": 1,
       "userId": 6,
@@ -5861,17 +5852,47 @@
       "parkId": 4,
       "userId": 6,
       "id": 6
+    },
+    {
+      "parkId": 4,
+      "userId": 1,
+      "id": 8
+    },
+    {
+      "parkId": 2,
+      "userId": 1,
+      "id": 9
+    },
+    {
+      "parkId": 1,
+      "userId": 1,
+      "id": 10
+    },
+    {
+      "parkId": 3,
+      "userId": 1,
+      "id": 11
+    },
+    {
+      "parkId": 5,
+      "userId": 1,
+      "id": 12
+    },
+    {
+      "parkId": 6,
+      "userId": 1,
+      "id": 13
     }
   ],
   "reviews": [
     {
+      "id": 1,
       "parkId": 1,
       "userId": 1,
       "rating": 5,
-      "review": "Best park",
-      "timestamp": 1616096575539,
-      "edited": false,
-      "id": 1
+      "review": "Best park ever!",
+      "timestamp": 1616431513372,
+      "edited": true
     },
     {
       "parkId": 19,

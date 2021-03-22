@@ -1,5 +1,5 @@
 console.log("Welcome to the main module")
-import { addPark, getParks, useParks, getNewParks } from "./database.js";
+import { addPark, getParks, useParks } from "./database.js";
 
 
 const addIds = parkArray => {
@@ -12,8 +12,6 @@ const addIds = parkArray => {
     })
     addPark(newObject)
 }
-
-// getNewParks()
 
 getParks()
 .then(() => {

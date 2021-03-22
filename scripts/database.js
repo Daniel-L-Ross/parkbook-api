@@ -7,11 +7,9 @@ export const useParks = () => {
 export const getParks = () => {
     return fetch("http://localhost:8088/parks")
         .then(res => res.json())
-        .then(
-            response => {
-                allparks = response
-            }
-                )
+        .then(response => {
+            allparks = response
+        })
 }
 
 export const getNewParks = () => {
@@ -21,7 +19,7 @@ export const getNewParks = () => {
             response => {
                 console.table(response)
             }
-                )
+        )
 }
 
 
@@ -34,12 +32,3 @@ export const addPark = parkObj => {
         body: JSON.stringify(parkObj)
     })
 }
-
-// let id = 1
-// let newParks = []
-// parksData.forEach(park => {
-//     park.id = id
-//     newParks.push(park)
-//     id += 1
-// })
-
